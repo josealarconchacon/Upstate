@@ -16,18 +16,16 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var signUpButton: UIButton!
     @IBOutlet weak var errorLabel: UILabel!
     
-    var getExtention = SignUpandLoginExtention()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        getExtention.setElements()
+        setElements()
     }
     
     @IBAction func signUpPressed(_ sender: UIButton) {
         // Validate the fields
-        let error = getExtention.fielsValitation()
+        let error = fielsValitation()
         if error != nil {
-            getExtention.showError(message: error!)
+            showError(message: error!)
         } else {
             // create user
         }

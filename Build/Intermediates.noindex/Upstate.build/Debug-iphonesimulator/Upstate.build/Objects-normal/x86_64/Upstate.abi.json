@@ -5,6 +5,13 @@
   "children": [
     {
       "kind": "Import",
+      "name": "Firebase",
+      "printedName": "Firebase",
+      "declKind": "Import",
+      "moduleName": "Upstate"
+    },
+    {
+      "kind": "Import",
       "name": "Foundation",
       "printedName": "Foundation",
       "declKind": "Import",
@@ -482,6 +489,13 @@
     },
     {
       "kind": "Import",
+      "name": "Firebase",
+      "printedName": "Firebase",
+      "declKind": "Import",
+      "moduleName": "Upstate"
+    },
+    {
+      "kind": "Import",
       "name": "Foundation",
       "printedName": "Foundation",
       "declKind": "Import",
@@ -771,6 +785,13 @@
           "mangledName": "$ss28CustomDebugStringConvertibleP"
         }
       ]
+    },
+    {
+      "kind": "Import",
+      "name": "Firebase",
+      "printedName": "Firebase",
+      "declKind": "Import",
+      "moduleName": "Upstate"
     },
     {
       "kind": "Import",
@@ -1672,6 +1693,63 @@
             "Custom"
           ],
           "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "fielsValitation",
+          "printedName": "fielsValitation()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:7Upstate20SignUpViewControllerC15fielsValitationSSSgyF",
+          "mangledName": "$s7Upstate20SignUpViewControllerC15fielsValitationSSSgyF",
+          "moduleName": "Upstate",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "showError",
+          "printedName": "showError(message:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:7Upstate20SignUpViewControllerC9showError7messageySS_tF",
+          "mangledName": "$s7Upstate20SignUpViewControllerC9showError7messageySS_tF",
+          "moduleName": "Upstate",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
         }
       ],
       "declKind": "Class",
@@ -1741,6 +1819,13 @@
           "mangledName": "$ss28CustomDebugStringConvertibleP"
         }
       ]
+    },
+    {
+      "kind": "Import",
+      "name": "Firebase",
+      "printedName": "Firebase",
+      "declKind": "Import",
+      "moduleName": "Upstate"
     },
     {
       "kind": "Import",
@@ -1828,6 +1913,48 @@
       "mangledName": "$s7Upstate13FormUtilitiesC",
       "moduleName": "Upstate",
       "isOpen": true
+    },
+    {
+      "kind": "Import",
+      "name": "Firebase",
+      "printedName": "Firebase",
+      "declKind": "Import",
+      "moduleName": "Upstate"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Upstate"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "Upstate"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "Upstate"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "Upstate"
+    },
+    {
+      "kind": "Import",
+      "name": "Firebase",
+      "printedName": "Firebase",
+      "declKind": "Import",
+      "moduleName": "Upstate"
     },
     {
       "kind": "Import",
@@ -2569,6 +2696,13 @@
     },
     {
       "kind": "Import",
+      "name": "Firebase",
+      "printedName": "Firebase",
+      "declKind": "Import",
+      "moduleName": "Upstate"
+    },
+    {
+      "kind": "Import",
       "name": "Foundation",
       "printedName": "Foundation",
       "declKind": "Import",
@@ -2592,6 +2726,13 @@
       "kind": "Import",
       "name": "_Concurrency",
       "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "Upstate"
+    },
+    {
+      "kind": "Import",
+      "name": "Firebase",
+      "printedName": "Firebase",
       "declKind": "Import",
       "moduleName": "Upstate"
     },
@@ -2821,6 +2962,13 @@
     },
     {
       "kind": "Import",
+      "name": "Firebase",
+      "printedName": "Firebase",
+      "declKind": "Import",
+      "moduleName": "Upstate"
+    },
+    {
+      "kind": "Import",
       "name": "Foundation",
       "printedName": "Foundation",
       "declKind": "Import",
@@ -2958,6 +3106,13 @@
       "mangledName": "$s7Upstate14StyleUtilitiesC",
       "moduleName": "Upstate",
       "isOpen": true
+    },
+    {
+      "kind": "Import",
+      "name": "Firebase",
+      "printedName": "Firebase",
+      "declKind": "Import",
+      "moduleName": "Upstate"
     },
     {
       "kind": "Import",

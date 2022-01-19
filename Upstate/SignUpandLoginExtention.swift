@@ -1,5 +1,5 @@
 //
-//  SignUpExtention.swift
+//  SignUpAndLoginExtention.swift
 //  Upstate
 //
 //  Created by Jose Alarcon Chacon on 1/19/22.
@@ -7,7 +7,8 @@
 
 import Foundation
 import UIKit
-class SignUpandLoginExtention: SignUpViewController {
+
+extension SignUpViewController {
     func setElements() {
         // hide the error lable
         errorLabel.alpha = 0
@@ -42,5 +43,3 @@ class SignUpandLoginExtention: SignUpViewController {
         errorLabel.alpha = 1
     }
 }
-
-
