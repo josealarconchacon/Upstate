@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1054678616228-ondgjd1293nsh4jbskoj2f7j9i5vtuha.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1054678616228-ondgjd1293nsh4jbskoj2f7j9i5vtuha</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCb70dxZ1PKKfQu8wDvjBKBFojkwdE3iqQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1054678616228</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>con.jose.Upstate</string>
+	<key>PROJECT_ID</key>
+	<string>upstate-be142</string>
+	<key>STORAGE_BUCKET</key>
+	<string>upstate-be142.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1054678616228:ios:cac6ce80d973aa814ebe31</string>
+</dict>
+</plist>

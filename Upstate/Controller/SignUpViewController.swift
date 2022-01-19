@@ -16,26 +16,21 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var signUpButton: UIButton!
     @IBOutlet weak var errorLabel: UILabel!
     
+    var getExtention = SignUpandLoginExtention()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        setElements()
+        getExtention.setElements()
     }
     
     @IBAction func signUpPressed(_ sender: UIButton) {
+        // Validate the fields
+        let error = getExtention.fielsValitation()
+        if error != nil {
+            getExtention.showError(message: error!)
+        } else {
+            // create user
+        }
     }
 }
 
-
-extension SignUpViewController {
-    func setElements() {
-        // hide the error lable
-        errorLabel.alpha = 0
-        
-        // styling the elements
-        StyleUtilities.styleTextField(textField: firstNameTextField)
-        StyleUtilities.styleTextField(textField: lastNameTextField)
-        StyleUtilities.styleTextField(textField: emailTextField)
-        StyleUtilities.styleTextField(textField: passwordTextField)
-        StyleUtilities.styleFilledButton(button: signUpButton)
-    }
-}
