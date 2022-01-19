@@ -1,0 +1,14 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
+build_start_time: [1642614879, 370881080]
+build_end_time: [1642614879, 955394029]
+inputs:
+  "/Users/josealarconchacon/Dropbox/Upstate/Upstate/Constants.swift": [1642544284, 495035886]
+  "/Users/josealarconchacon/Dropbox/Upstate/Upstate/Controller/LoginViewController.swift": [1642565482, 767760276]
+  "/Users/josealarconchacon/Dropbox/Upstate/Upstate/Controller/SignUpViewController.swift": [1642565482, 785100936]
+  "/Users/josealarconchacon/Dropbox/Upstate/Upstate/Controller/TownViewController.swift": [1642542587, 907239913]
+  "/Users/josealarconchacon/Dropbox/Upstate/Upstate/Controller/ViewController.swift": [1642613480, 125949144]
+  "/Users/josealarconchacon/Dropbox/Upstate/Upstate/FormUtilities.swift": [1642545341, 479014873]
+  "/Users/josealarconchacon/Dropbox/Upstate/Upstate/StyleUtilities.swift": [1642614879, 208566188]
+  "/Users/josealarconchacon/Dropbox/Upstate/Upstate/Support File/AppDelegate.swift": [1642472759, 213031291]
+  "/Users/josealarconchacon/Dropbox/Upstate/Upstate/Support File/SceneDelegate.swift": [1642472759, 220007658]
