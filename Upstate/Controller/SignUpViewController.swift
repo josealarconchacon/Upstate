@@ -6,6 +6,9 @@
 //
 
 import UIKit
+import FirebaseAuth
+import Firebase
+import FirebaseFirestore
 
 class SignUpViewController: UIViewController {
 
@@ -28,6 +31,16 @@ class SignUpViewController: UIViewController {
             showError(message: error!)
         } else {
             // create user
+            Auth.auth().createUser(withEmail: "", password: "") { result, error in
+                if let error = error {
+                    self.showError(message: "Error creating user")
+                } else {
+                    // User was create successfully
+                    // reference to Firestore object
+                    let db = Firestore.firestore()
+                    db.collection("users").addDocument(data: <#T##[String : Any]#>, completion: <#T##((Error?) -> Void)?##((Error?) -> Void)?##(Error?) -> Void#>)
+                }
+            }
         }
     }
 }

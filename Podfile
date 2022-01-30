@@ -7,6 +7,8 @@ target 'Upstate' do
 
   # Pods for Upstate
   pod 'Firebase/Auth'
+  pod 'Firebase/Core'
+  pod 'Firebase/Firestore'
 
   target 'UpstateTests' do
     inherit! :search_paths

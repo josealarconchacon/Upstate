@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1EDBE7C99CA1D32FC21E4F68 /* Pods_Upstate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F661F85FF22A02371FDAF926 /* Pods_Upstate.framework */; };
+		670B413127A70BD1009C5AF9 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670B413027A70BD1009C5AF9 /* UserInfo.swift */; };
 		6775CACF27989AFC00ACDA26 /* SignUpAndLoginExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6775CACE27989AFC00ACDA26 /* SignUpAndLoginExtention.swift */; };
 		67A81EF227989D5E00FC2EA5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67A81EF127989D5E00FC2EA5 /* GoogleService-Info.plist */; };
 		67CABBD427965CB7003AEF78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CABBD327965CB7003AEF78 /* AppDelegate.swift */; };
@@ -48,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		2A378354B5F502A76D2A4C0D /* Pods_UpstateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UpstateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		670B413027A70BD1009C5AF9 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		6775CACE27989AFC00ACDA26 /* SignUpAndLoginExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpAndLoginExtention.swift; sourceTree = "<group>"; };
 		67A81EF127989D5E00FC2EA5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		67CABBD027965CB7003AEF78 /* Upstate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Upstate.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,6 +195,7 @@
 		67CABC0427965D13003AEF78 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				670B413027A70BD1009C5AF9 /* UserInfo.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -488,6 +491,7 @@
 				67CABC102797741C003AEF78 /* Constants.swift in Sources */,
 				67CABC0D27976D7C003AEF78 /* TownViewController.swift in Sources */,
 				67CABC1227977433003AEF78 /* StyleUtilities.swift in Sources */,
+				670B413127A70BD1009C5AF9 /* UserInfo.swift in Sources */,
 				67CABBD627965CB7003AEF78 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
