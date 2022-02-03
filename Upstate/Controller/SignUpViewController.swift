@@ -30,18 +30,33 @@ class SignUpViewController: UIViewController {
         if error != nil {
             showError(message: error!)
         } else {
-            // create user
-            Auth.auth().createUser(withEmail: "", password: "") { result, error in
-                if let error = error {
-                    self.showError(message: "Error creating user")
-                } else {
-                    // User was create successfully
-                    // reference to Firestore object
-                    let db = Firestore.firestore()
-                    db.collection("users").addDocument(data: <#T##[String : Any]#>, completion: <#T##((Error?) -> Void)?##((Error?) -> Void)?##(Error?) -> Void#>)
-                }
-            }
+            createUser()
         }
     }
 }
 
+extension SignUpViewController {
+    func createUser() {
+        // create user
+        let firstName = firstNameTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        let lastName = lastNameTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        let email = emailTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        let password = passwordTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        Auth.auth().createUser(withEmail: email, password: password) { result, error in
+            if error != nil {
+                self.showError(message: "Error creating user")
+            } else {
+                // User was create successfully
+                // reference to Firestore object
+                let db = Firestore.firestore()
+                db.collection("users").addDocument(data: ["firstName" : firstName, "lastName" : lastName, "uid": result!.user.uid]) { (error) in
+                    if error != nil {
+                        self.showError(message: "Error: User could not be save")
+                    }
+                }
+                // transition to home page
+                self.transitionToHomePage()
+            }
+        }
+    }
+}
