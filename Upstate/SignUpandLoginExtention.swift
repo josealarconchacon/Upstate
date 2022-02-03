@@ -49,3 +49,15 @@ extension SignUpViewController {
         view.window?.makeKeyAndVisible()
     }
 }
+
+extension LoginViewController {
+    func showError(message: String) {
+        errorLabel.text = message
+        errorLabel.alpha = 1
+    }
+    func transitionToHomePage() {
+        let townViewController = storyboard?.instantiateViewController(withIdentifier: Constants.StoryBoardContainer.townPageViewController) as? TownViewController
+        view.window?.rootViewController = townViewController
+        view.window?.makeKeyAndVisible()
+    }
+}
