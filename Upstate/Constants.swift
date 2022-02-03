@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct Constants {
+    
+    struct StoryBoardContainer {
+        static let townPageViewController = "TownPage"
+    }
+}
