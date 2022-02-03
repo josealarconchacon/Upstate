@@ -42,4 +42,10 @@ extension SignUpViewController {
         errorLabel.text = message
         errorLabel.alpha = 1
     }
+    
+    func transitionToHomePage() {
+        let townViewController = storyboard?.instantiateViewController(withIdentifier: Constants.StoryBoardContainer.townPageViewController) as? TownViewController
+        view.window?.rootViewController = townViewController
+        view.window?.makeKeyAndVisible()
+    }
 }
