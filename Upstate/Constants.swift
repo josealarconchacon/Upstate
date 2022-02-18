@@ -11,5 +11,12 @@ struct Constants {
     
     struct StoryBoardContainer {
         static let townPageViewController = "TownPage"
+        static let townTableViewTdentifier = "TownCell"
+        static let placesWithinTown = "places"
+        static let userpRrofile = "profile"
+    }
+    
+    struct navTitle {
+        static let setNavTitle = "Explore \nUpstate Towns"
     }
 }
